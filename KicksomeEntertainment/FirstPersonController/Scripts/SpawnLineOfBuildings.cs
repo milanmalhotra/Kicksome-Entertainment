@@ -5,14 +5,8 @@ using UnityEngine;
 public class SpawnLineOfBuildings : MonoBehaviour
 {
 
-  //  public GameObject[] buildings;
     public GameObject building;
     float posX;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

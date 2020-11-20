@@ -43,9 +43,4 @@ public class DataLoader : MonoSingleton<DataLoader>
     {
         buildingList.Add(building);
     }
-
-    /*public List<Building> GetBuildingData()
-    {
-        return buildingList;
-    }*/
 }

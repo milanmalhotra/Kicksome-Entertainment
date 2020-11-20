@@ -9,9 +9,7 @@ public class VFXTest : MonoBehaviour
     public GameObject vfx;
     public float groundLevel;
     public float offset = .3f;
-    public Animator animator;
-    // Start is called before the first frame update
-    
+    public Animator animator; 
 
     // Update is called once per frame
     void Update()

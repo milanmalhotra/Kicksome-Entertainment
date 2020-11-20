@@ -13,7 +13,6 @@ public class SearchListingController : MonoBehaviour
     GameObject ngod;
     GameObject sdem;
     bool isOpen = false;
-  //  string fileLocation = "/ListingCanvas/SearchListingPage/ScrollList/ListViewport/ListContent/";
     
     public void OpenListingInfo(Button button)
     {
@@ -28,15 +27,6 @@ public class SearchListingController : MonoBehaviour
 
     public void AcceptButton()
     {
-        /**  yabba = GameObject.Find(fileLocation + "YabInfo");
-          ngod = GameObject.Find(fileLocation + "NgodInfo");
-          sdem = GameObject.Find(fileLocation + "SdemInfo");
-          if (yabba.activeInHierarchy)
-              print("Accepted YabbaDabbaDoo's listing");
-          else if (ngod.activeInHierarchy)
-              print("Accepted NGodofPainM's listing");
-          else if (sdem.activeInHierarchy)
-              print("Accepted SDemonofTruthM's listing");**/
         print("Accepted Listing");
         Cursor.lockState = CursorLockMode.Locked;
         PlayerMovement.playerHasInput = true;

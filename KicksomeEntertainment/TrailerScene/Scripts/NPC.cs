@@ -15,24 +15,6 @@ public class NPC : MonoBehaviour
         anim = gameObject.GetComponentInParent<Animator>();
      
     }
-    /*private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.name == "CM vcam3")
-        {
-            anim.SetTrigger("Walking");
-            isAggro = true;
-            //pm.TakePlayerControlAway();
-            GameObject.Find("Main Camera").GetComponent<MouseLook>().enabled = false;
-            PlayerMovement.playerHasInput = false;
-          
-        }
-        else
-        {
-            anim.SetTrigger("Idle");
-            
-        }
-        
-    }*/
 
     private void Update()
     {
